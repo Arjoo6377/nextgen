@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Angular cache
+/.angular
+
+# local environment
+.env
+.env.*
+
+# editor and OS
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.DS_Store
+Thumbs.db

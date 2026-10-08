@@ -1,0 +1,24 @@
+NextGen Broadband — Event & Concert Wi-Fi add-on (4 pages)
+=========================================================
+
+HOW TO INSTALL
+Unzip this over the root of the website, keeping the folder structure:
+  events-wifi.php, concert-hotspot.php, event-projects.php, event-planner.php
+  includes/event-helpers.php
+  assets/css/events-wifi.css, assets/js/events-wifi.js
+  assets/img/event-crowd-illustration.jpg
+  assets/img/events/            <- drop your own event photos here (see below)
+No existing file is overwritten. The four pages work immediately at their own URLs.
+
+YOUR OWN EVENT PHOTOS
+Put .jpg/.png/.webp files in assets/img/events/. A "From the ground" gallery
+appears automatically on event-projects.php (file name = caption, e.g.
+"Sunburn-main-stage-network-room.jpg"). With no photos, the section stays hidden.
+Please only upload photos you took or have the right to use.
+
+STILL TO DO (small edits to existing files — done for you once the full site is re-shared)
+  1. Menu: add links to events-wifi.php in the Solutions dropdown (includes/header.php)
+     and in the footer Solutions list (includes/footer.php).
+  2. events.php: add a link/section pointing to the four new pages.
+  3. contact.php: pre-select the dropdown from ?interest=Event+Connectivity
+     (the new pages' "Request a Site Survey" buttons already send this).
