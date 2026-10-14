@@ -46,17 +46,17 @@ import { PHONE_DISPLAY } from '../site-content';
   <div class="container">
     <div class="section-head">
       <p class="eyebrow">Licensed and regulated</p>
-      <h2>A Category B Internet Service Provider</h2>
-      <p>NextGen operates under a Department of Telecommunications (DoT) Internet Service Provider licence, and our services are provided in compliance with TRAI regulations and licence conditions.</p>
+      <h2>A Licensed Internet Service Provider</h2>
+      <p>NextGen is a licensed Internet Service Provider under the Department of Telecommunications (DoT), and also holds an Access Service licence. Our services are provided in compliance with TRAI regulations and licence conditions.</p>
     </div>
     <article class="band about-licence">
       <div class="about-seal">DoT</div>
       <div>
-        <h3>DoT-licensed Category B ISP</h3>
-        <p>Internet service provision is a regulated activity in India. Being a licensed ISP means our network, our service terms and our quality commitments sit inside a regulated framework — not a reseller arrangement on someone else's licence.</p>
+        <h3>Licensed Internet Service Provider — Department of Telecommunications</h3>
+        <p>Internet service provision is a regulated activity in India. Being a licensed ISP means our network, our service terms and our quality commitments sit inside a regulated framework — not a reseller arrangement on someone else's licence. We also hold an Access Service licence.</p>
       </div>
     </article>
-    <div class="cards three">
+    <div class="cards four">
       @for (item of licencePoints; track item.title) {
         <article class="info-card">
           <h3>{{ item.title }}</h3>
@@ -242,12 +242,13 @@ export class AboutComponent {
   storyStats = [
     { value: '2014', label: 'Founded in Gurugram' },
     { value: '10+ yrs', label: 'Experience' },
-    { value: 'Licensed', label: 'DoT Category B ISP' },
+    { value: 'Licensed', label: 'ISP under the Department of Telecommunications' },
     { value: '24×7', label: 'Network operations centre' }
   ];
   licencePoints = [
     { title: 'Own network, own accountability', body: 'We run the network from POP to premises, so one team answers for uptime — not a chain of subcontractors.' },
     { title: 'Regulated service standards', body: 'Services are delivered under TRAI regulations and licence conditions, with quality standards we aim to exceed.' },
+    { title: 'Presence across multiple states', body: 'We deliver Wi-Fi setups Pan India — events, campuses and enterprise sites in multiple states, not only the Delhi-NCR region where we are based.' },
     { title: 'Enterprise-ready by design', body: 'Dedicated bandwidth, SLAs and defined escalation — the structure businesses, schools and event organisers need.' }
   ];
   networks = [
@@ -270,7 +271,7 @@ export class AboutComponent {
     { value: '10+ yrs', label: 'Event-grade experience' },
     { value: '1,00,000+', label: 'Concurrent users, single event' },
     { value: '3 Gbps', label: 'Dedicated bandwidth, major esports event' },
-    { value: '80+', label: 'Events for the Government of India' },
+    { value: '100+', label: 'Events for the Government of India' },
     { value: '99.99%', label: 'Uptime SLA capability' }
   ];
   featuredClients = ['Lollapalooza India', 'Ed Sheeran', 'BookMyShow Live Events', 'Sunburn Festival', 'Nodwin Gaming'];
@@ -285,7 +286,7 @@ export class AboutComponent {
     { year: '2016', title: 'Esports-grade networks', body: 'We begin delivering dedicated-bandwidth, zero-tolerance-latency networks for Nodwin Gaming — a partnership that continues in Delhi and Mumbai.' },
     { year: '2023–24', title: 'Wi-Fi hotspots for revenue', body: 'UPI hotspot connectivity at BookMyShow festivals and Sahitya Aaj Tak, with reported increases in counter sales.' },
     { year: '2025', title: 'Live-event deployments at scale', body: 'Full on-ground networks for BookMyShow Live Events, alongside Lollapalooza India and tours by Ed Sheeran and Karan Aujhla.' },
-    { year: 'Today', title: 'Gurugram, NCR and Haryana', body: 'Dense fiber coverage across Gurugram, with enterprise, leased-line and event reach across NCR, Haryana and beyond.' }
+    { year: 'Today', title: 'Gurugram, NCR, Haryana and Pan India', body: 'Dense fiber coverage across Gurugram, with enterprise, leased-line and event reach across NCR and Haryana, plus Wi-Fi setups in multiple states across India.' }
   ];
   capabilities = [
     { title: 'Carrier-grade ISP', body: 'Licensed internet service provider — FTTH, dedicated leased lines and ring-fenced bandwidth for enterprise clients.' },
